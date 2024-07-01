@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/constant.dart';
 import 'package:learn_flutter/ui/login_page.dart';
+import 'package:learn_flutter/ui/root_page.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});
@@ -28,7 +29,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
-                    builder: (_) => const LoginPage(),
+                    builder: (_) => const RootPage(),
                   ),
                 );
               }, // redirect to login screen
@@ -98,7 +99,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                          builder: (_) => const LoginPage(),
+                          builder: (_) => const RootPage(),
                         ),
                       );
                     }
