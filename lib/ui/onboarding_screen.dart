@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/constant.dart';
-import 'package:learn_flutter/ui/login_page.dart';
 import 'package:learn_flutter/ui/root_page.dart';
 
 class OnBoardingScreen extends StatefulWidget {
